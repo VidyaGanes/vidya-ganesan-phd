@@ -3,6 +3,11 @@
 This repository contains the complete implementation of a deep learning framework designed for early cancer detection using biomarker data. The pipeline integrates synthetic data augmentation using tabular GANs, logistic regression–based feature selection, and transformer-driven classification (SAINT) for improved diagnostic accuracy in ovarian cancer.  
 The project also evaluates the model’s generalizability on breast and lung cancer biomarker datasets.
 
+**Key components:**
+- **GAN Notebooks:** CTGAN, TVAE, CopulaGAN, Gaussian methods, KDE, SMOTE  
+- **Feature Extraction:** OVCD_TEXT_FEATURES  
+- **Augmented Data:** OVC_TEXT_AUGMENTED_DATA  
+- **Cross-Cancer Validation:** GAN models applied to breast & lung cancer biomarker datasets 
 ## Methodology
 
 ### 1. Data Preprocessing
